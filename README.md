@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 GitHub Repos Explorer
 
-## Getting Started
+A modern React + Next.js 14 application to explore public GitHub repositories by username.
 
-First, run the development server:
+---
 
-```bash
+## 🚀 Features & Tech Stack
+
+| Category             | Description                                                                            |
+| -------------------- | -------------------------------------------------------------------------------------- |
+| 🔍 **Search & Sort** | Search public repositories by GitHub username and sort by stars, forks, or last update |
+| ⚡ **Data Layer**    | Instant caching and refetching with **React Query**                                    |
+| 🎨 **UI / UX**       | Responsive interface built with **TailwindCSS** and **shadcn/ui**                      |
+| 🧱 **Type Safety**   | Fully typed using **TypeScript**                                                       |
+| 🧪 **Testing**       | Unit-tested with **Vitest** and **React Testing Library**                              |
+| 🔧 **Code Quality**  | Managed with **ESLint**, **Prettier**, and **Husky** pre-commit hooks                  |
+| 💡 **Framework**     | Powered by **Next.js 14 (App Router)**                                                 |
+| ☁️ **Deployment**    | Hosted on **Vercel**                                                                   |
+| 🛠️ **CI/CD**         | Automated checks via **GitHub Actions** (lint → test → build)                          |
+
+---
+
+## 🧠 How it works
+
+- User enters a GitHub username
+- Client calls GitHub API via React Query
+- Repos are cached and rendered with Tailwind UI
+- Errors and loading states handled gracefully
+
+---
+
+## 🧪 Run locally
+
+```
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Deploy
 
-## Learn More
+1. Push your repo to GitHub
+2. Go to vercel.com → import repo
+3. That’s it — auto build and deploy!
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧾 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+MIT License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Copyright (c) 2025 Vitaliy Kirenkov
