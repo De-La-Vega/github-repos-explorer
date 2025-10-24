@@ -1,6 +1,6 @@
 # 🚀 GitHub Repos Explorer
 
-A modern React + Next.js 14 application to explore public GitHub repositories by username.
+A modern React + Next.js 15 application to explore public GitHub repositories by username.
 
 ---
 

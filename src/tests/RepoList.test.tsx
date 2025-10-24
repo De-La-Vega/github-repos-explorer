@@ -1,6 +1,5 @@
 import { render, screen } from "@testing-library/react";
 import { RepoCard } from "@/components/RepoCard";
-import { describe, it, expect } from "vitest";
 
 describe("RepoCard", () => {
   it("renders repo name and stars", () => {
